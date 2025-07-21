@@ -32,7 +32,7 @@ const HomePage = () => {
             </button>
           </div>
           <a href="" className="d-flex items-center g-8px logo-center">
-            <img src="/_img/logo.png" alt="Logo" className="logo-img" />
+            <img src={`${import.meta.env.BASE_URL}_img/logo.png`} alt="Logo" className="logo-img" />
             <h2 className="linear-txt size-20">twendyuige</h2>
           </a>
           <ul className="d-flex items-center justify-center g-36px list-navigation">
@@ -113,7 +113,7 @@ const HomePage = () => {
                       </a>
                     </div>
                     <div className="d-flex column g-8px">
-                      <img src="/_img/team.webp" alt="Programa" className="image-nav" />
+                      <img src={`${import.meta.env.BASE_URL}_img/team.webp`} alt="Programa" className="image-nav" />
                     </div>
                   </div>
                 </div>
@@ -202,7 +202,7 @@ const HomePage = () => {
               <span className="nerd"></span>
               <div className="video-container blur">
                 <video autoPlay loop muted playsInline className="anim-3">
-                  <source src="/_vids/coding.mp4" type="video/mp4" />
+                  <source src={`${import.meta.env.BASE_URL}_vids/coding.mp4`} type="video/mp4" />
                 </video>
               </div>
             </div>
@@ -256,7 +256,7 @@ const HomePage = () => {
                     </div>
                   </div>
                   <div className="image-about blur-back relative">
-                    <img src="/_img/about.png" alt="" />
+                    <img src={`${import.meta.env.BASE_URL}_img/about.png`} alt="" />
                   </div>
                 </div>
               </div>
@@ -281,7 +281,7 @@ const HomePage = () => {
               <div className="d-flex column g-36px w-full">
                 <div className="grid-cards">
                   <div className="image-card justify-end">
-                    <img src="/_img/about.webp" alt="Etapas do processo" />
+                    <img src={`${import.meta.env.BASE_URL}_img/about.webp`} alt="Etapas do processo" />
                   </div>
                   <div className="d-flex items-center justify-center">
                     <div className="line relative">
@@ -316,12 +316,12 @@ const HomePage = () => {
                     </div>
                   </div>
                   <div className="image-card justify-start">
-                    <img src="/_img/team.webp" alt="Etapas do processo" />
+                    <img src={`${import.meta.env.BASE_URL}_img/team.webp`} alt="Etapas do processo" />
                   </div>
                 </div>
                 <div className="grid-cards">
                   <div className="image-card justify-end">
-                    <img src="/_img/benefits.webp" alt="Etapas do processo" />
+                    <img src={`${import.meta.env.BASE_URL}_img/benefits.webp`} alt="Etapas do processo" />
                   </div>
                   <div className="d-flex items-center justify-center">
                     <div className="line relative">
@@ -459,7 +459,7 @@ const HomePage = () => {
                       </p>
                     </div>
                     <div className="image-map">
-                      <img src="/_img/edge-network.png" alt="Residência na Provícia do Uíge" />
+                      <img src={`${import.meta.env.BASE_URL}_img/edge-network.png`} alt="Residência na Provícia do Uíge" />
                     </div>
                   </div>
                   <div className="grid-four">
@@ -676,7 +676,7 @@ const HomePage = () => {
               <div className="grid-footer">
                 <div className="d-flex column g-20px">
                   <a href="#" className="d-flex items-center g-8px logo-center">
-                    <img src="/_img/logo.png" alt="Logo" className="logo-img" />
+                    <img src={`${import.meta.env.BASE_URL}_img/logo.png`} alt="Logo" className="logo-img" />
                     <h2 className="linear-txt size-20">twendyuige</h2>
                   </a>
                   <p className="text-secondary size-14">
@@ -736,7 +736,7 @@ const HomePage = () => {
               </div>
             </div>
             <div className="w-full image-layer">
-              <img src="/_img/layer.png" alt="layer" />
+              <img src={`${import.meta.env.BASE_URL}_img/layer.png`} alt="layer" />
             </div>
             <p className="copyright">
               &copy; twendyuige 2025
